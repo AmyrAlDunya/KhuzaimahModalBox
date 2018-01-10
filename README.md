@@ -7,4 +7,4 @@ document.getElementById( 'hehe' ).onclick = function() {
  ShowModalBox( modal );
 };
 ```
-![Snapshot of KhuzaimahModalBox example](./snapshot)
+![Snapshot of KhuzaimahModalBox example]('./snapshot')
