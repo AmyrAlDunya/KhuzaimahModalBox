@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+ <style>
+  * {
+   font-family: sans-serif, Verdana, Arial;
+  }
+  a {
+   text-decoration: none;
+   color: cyan;
+  }
+  .btn {
+   border: none;
+   width: 100px;
+   height: 30px;
+   background-color: #4782e0;
+   color: white;
+  }
+ </style>
+ <script src="./ModalBox.js"></script>
+</head>
+<body>
+ <br/>
+ <center>
+  <h2>Created by <a href="https://www.facebook.com/AlAmyrAlBanjsamoro/">Khuzaimah</a></h2>
+  <button class="btn" id="hehe">Open Up</button>
+ </center>
+ <script>
+  var modal = CreateNewModalBox( "test", "<h1>Notification</h1>", "<p>This is just a test modal box!</p><p>And a new line...</p>", "hehe" );
+  document.getElementById( 'hehe' ).onclick = function() {
+   ShowModalBox( modal );
+  };
+ </script>
+ <br/>
+</body>
+</html>
